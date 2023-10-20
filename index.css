@@ -2,6 +2,47 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.logo {
+    margin: right;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    letter-spacing: 2px;
+}
+
+.logo i {
+    color: black;
+}
+
+.logo i:hover {
+    color: #f3766d;
+}
+
+.links-container {
+    display: flex;
+}
+
+.link {
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgb(101, 96, 96);
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.link a:hover {
+    color: #f3766d;
+}
+
 .navbar {
     height: 20px;
     display: flex;
@@ -30,6 +71,10 @@ body {
 
 .nav-links li {
     margin-right: 20px;
+}
+
+.nav-links a:hover {
+    color: #f3766d;
 }
 
 .menu-icon {
