@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #fff;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.nav-links {
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    letter-spacing: 2px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+        color: black;
+    }
+}
+
+.content {
+    background-image: url('https://media1.popsugar-assets.com/files/thumbor/rWsEiavzrovMigch4ltuYH1TBcg=/fit-in/1584x1056/top/filters:format_auto():upscale()/2018/06/29/712/n/1922729/tmp_4fZW8C_7b8703f9ccecbc8a_lily-banse-365344-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.inside_content {
+    background-color: rgba(255, 99, 71, 0.5);
+    color: #fff;
+    padding: 15px;
+    margin: 20px;
+    max-height: 70vh;
+    width: 90%;
+    max-width: 500px;
+    text-align: left;
+
+}
+
+@media screen and (max-width: 576px) {
+    .inside_content {
+        padding: 20px;
+
+    }
+}
+
+.orders {
+    text-align: center;
+    background-image: linear-gradient(to right, #ffc0cb, orange);
+    max-height: 350vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.card {
+
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 25px;
+    max-height: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 0 35px 0 35px;
+}
+
+.image {
+    max-height: 50vh;
+    max-width: 50vw;
+    margin: 10px;
+    border-radius: 0 35px 0 35px;
+}
+
+.ITEM-name {
+    color: black;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitle {
+    color: black;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 5vh;
+    width: 13vw;
+    margin: 20px;
+    border: transparent;
+    border-radius: 15px;
+    background-color: #F3CFC6
+}
+
+@media screen and (max-width: 786px) {
+    .button-container {
+        margin-top: 10px;
+        border-radius: 15px;
+    }
+
+    .button {
+        height: 5vh;
+        width: 20%;
+    }
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+}
+
+.logos i {
+    font-size: 24px;
+    margin-left: 20px;
+    color: #333;
+}
